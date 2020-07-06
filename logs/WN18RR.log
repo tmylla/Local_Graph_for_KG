@@ -1,0 +1,11 @@
+2020-07-06 18:59:01 INFO     -------------------SSSSSStart!---------------------
+2020-07-06 18:59:01 INFO     Num_relation : 25
+2020-07-06 18:59:01 INFO     Num_entity : 40944
+2020-07-06 18:59:01 INFO     Configuration : {'config_dir': '../config', 'log_dir': '../logs', 'data_dir': '../datasets', 'model_dir': '../saved_models', 'dataset': 'WN18RR', 'num_entity': 40944, 'num_relation': 25, 'state_embed_size': 50, 'relation_embed_size': 50, 'mlp_hidden_size': 100, 'use_entity_embed': False, 'entity_embed_size': 50, 'grad_clip_norm': 5, 'action_embed_size': 50, 'train_times': 20, 'test_times': 100, 'train_batch': 20, 'max_out': 100, 'max_step_length': 3, 'learning_rate': 0.001, 'batch_size': 256, 'decay_weight': 0.02, 'decay_batch': 100, 'decay_rate': 0.9, 'gamma': 1, 'Lambda': 0.05, 'beta': 0.05, 'use_cuda': True}
+2020-07-06 18:59:04 WARNING  Setting up a new session...
+2020-07-06 18:59:04 INFO     Visdom successfully connected to server
+2020-07-06 18:59:04 INFO     Begin train
+2020-07-06 18:59:04 INFO     Train graph contains 173670 triples
+2020-07-06 18:59:05 INFO     ('more_out_count: ', 36)
+2020-07-06 18:59:05 INFO     Train data contains 173670 triples
+2020-07-06 18:59:19 INFO     reward: 0.0365234375
